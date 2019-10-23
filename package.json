@@ -4,14 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "dev": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "fs-extra": "^8.1.0",
     "ganache-cli": "^6.7.0",
+    "ipfs": "^0.38.0",
     "mocha": "^6.2.1",
+    "net": "^1.0.2",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
     "solc": "^0.4.17",
     "truffle-hdwallet-provider": "0.0.5",
     "web3": "^1.2.1"
